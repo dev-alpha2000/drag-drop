@@ -28,3 +28,20 @@ bash
 Copy code
 npm start
 The app will be available at http://localhost:3000.
+
+Usage
+Drag and Drop: Drag and drop files into the designated drop zone to upload them.
+File Preview: After a file is uploaded, a preview (image or file name) is displayed.
+Traditional File Input: Users can also click a button to open the file browser and upload files traditionally.
+File Validation: Add validation for file types (e.g., only images) and file size to prevent uploading invalid files.
+
+Example
+When you open the app, you will:
+
+See a drop zone where you can drag and drop files to upload.
+Preview the uploaded files with an option to remove or replace them.
+Use a traditional file input button if drag-and-drop is not preferred.
+Dependencies
+React: Frontend framework for building the UI.
+React Dropzone or Custom Drag/Drop Logic: To handle drag-and-drop functionality.
+CSS Modules or Styled Components: For styling the drop zone and preview components.
