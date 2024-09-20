@@ -7,3 +7,24 @@ File Preview: Displays a preview of uploaded files (e.g., images).
 Custom Input: Users can also upload files via a traditional input button if they prefer.
 Validation: Supports validation for file types, size limits, etc.
 Responsive Design: Works seamlessly across mobile, tablet, and desktop devices.
+
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/drag-drop-input-app.git
+cd drag-drop-input-app
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
